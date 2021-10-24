@@ -1,0 +1,197 @@
+<!-- Name: Roshaan Dar
+File Name: login.html
+Student No. 300951398
+Date: 10/23/2021 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <html>
+      <head>
+  
+          <link rel="stylesheet" href="/aboutme.css">
+      </head>
+      <body>
+          <div class="header">
+              <div class="container">
+                  <div class="navbar">
+                      <div class="logo">
+                          <img src="/Form/imges/toxic.png-removebg-preview.png" alt="logo" width="125px">
+                          <!-- if you dont put width it will show his real size which is big -->
+                      </div>
+                      <nav>
+  
+                          <ul>
+                              <li><a href="/index.html">Home Page</a></li>
+                              <li><a href="/aboutme.html">About Me</a></li>
+                              <li><a href="/projects.html">Projects</a></li>
+                              <li><a href="/services.html">Services</a></li>
+                              <li><a href="/contactme.html">Contact Me</a></li>
+                              <li><a href="#">Login</a></li>
+                          </ul>
+                      </nav>
+  
+                   <div>
+  
+  
+  
+                      
+                
+  
+                   </div>
+                  
+  
+  
+                  </div>
+  
+  
+                  
+  
+  
+         
+                  
+                
+              </div>
+  
+             
+  
+              
+          </div>
+  
+  
+      
+      
+      
+      
+      
+      </body>
+  </html>
+
+ <style>
+
+    
+ Body{
+
+font-family: sans-serif;
+background-color: pink;
+
+ }
+ .button {
+  background-color: darkgrey;
+  color: white;
+  padding: 10px 18px;
+  margin: 2px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+ form{
+
+
+padding: 2%;
+margin: 2%;
+
+ }
+
+ input[type=text], input[type=password]{
+
+width: 50%;
+margin: 2px 0;
+padding: 12px 20px;
+align-content: center;
+
+
+
+ }
+
+ 
+
+ 
+
+ input[type=text], input[type=password]{
+
+    width: 50%;
+    margin: 10px 0;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 2px solid rgb(255, 235, 238);
+    box-sizing: border-box;
+
+ }
+
+ button:hover {
+
+    opacity: 0.7;
+ }
+
+ .cancelbtn{
+
+    width: auto;
+    padding: 10px 10px;
+    margin: 10px 5px;
+
+ }
+
+ .container1 {
+
+    padding: 25px;
+    background-color: lightblue;
+
+
+ }
+ 
+</style>
+</head>
+
+<html>
+
+  
+<script type="text/javascript">
+function display(form){
+if (form.username.value=="root"){
+    if(form.password.value=="root"){
+
+        location="editable.html"
+    } else {
+                                            alert("Invalid!")
+                                            }
+        } else { alert("invallid User")
+}
+
+
+    }
+
+</script>
+<body>
+   
+
+<form>
+<input type="text" name="username" placeholder="Username" /><br><br>
+<input type="password" name="password" placeholder="Password"/><br><br>
+<input class="button" type="button" value="Login" onclick="display(this.form)">
+
+
+</form>
+
+</body>
+</html>
+
+</html>
